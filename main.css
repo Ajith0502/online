@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px black;
+    background-color:lightskyblue;
+    
+    
+}
+.navbar .navbar-brand{
+    font-size:20px ;
+    font-weight: 900;
+    color: royalblue;
+    font-family: fantasy;
+;
+}
+
+#navbarSupportedContent a{
+    color: red;
+    border-bottom: 2px solid transparent;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: 100px;
+    
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid pink;
+    color: pink;
+
+}
+
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home{
+    background: url(home1.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    
+}
+#home h1{
+    font-size: 50px;
+    color:orange;
+    letter-spacing: 3px;
+   
+    text-shadow: 5px 5px 3px black;
+    margin-top: -200px;
+    font-family:fantasy;
+
+}
+.ch{
+    font-size: 50px;
+    color:royalblue;
+    letter-spacing: 3px;
+    font-family: fantasy;
+    text-shadow: 5px 5px 3px black;
+    
+    font-family:fantasy;
+}
+#home p{
+    color:orange;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#home .input-group{
+    width: 40%;
+    height: 45%;
+    
+
+}
+.signin{
+    background:pink !important;
+
+    
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    
+    animation-name: log;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+@keyframes log{
+    0%{
+        transform: rotate(360deg);
+    }
+}
